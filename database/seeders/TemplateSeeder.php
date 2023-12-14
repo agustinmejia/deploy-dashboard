@@ -24,6 +24,8 @@ class TemplateSeeder extends Seeder
             PermissionRoleTableSeeder::class,
             SettingsTableSeeder::class,
             UsersTableSeeder::class,
+            ApplicationTypesTableSeeder::class,
+            ApplicationTypeVersionsTableSeeder::class,
         ]);
     }
 }
